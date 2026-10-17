@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import Sidebar from "../components/Sidebar";
-import ProductCard from "../components/ProductCard";
-import StatCard from "../components/StatCard";
+import Sidebar from "../Components/Sidebar";
+import ProductCard from "../Components/ProductCard";
+import StatCard from "../Components/StatCard";
 
 export default function Products({ products }) {
   const navigate = useNavigate();

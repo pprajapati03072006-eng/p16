@@ -6,8 +6,8 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Products from "./pages/Products";
-import CreateProduct from "./pages/CreateProduct";
+import Products from "./Pages/Products";
+import CreateProduct from "./Pages/CreateProduct";
 
 function ProductApp() {
   const [products, setProducts] = useState([]);
